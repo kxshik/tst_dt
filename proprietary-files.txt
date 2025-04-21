@@ -797,31 +797,33 @@ vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
 
 # Thermal configs
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-class0.conf
 vendor/etc/thermald-devices.conf
 vendor/etc/thermal-engine.conf
-vendor/etc/thermal-huanji.conf
-vendor/etc/thermal-india-camera.conf
-vendor/etc/thermal-india-class0.conf
-vendor/etc/thermal-india-huanji.conf
-vendor/etc/thermal-india-mgame.conf
-vendor/etc/thermal-india-navigation.conf
-vendor/etc/thermal-india-nolimits.conf
-vendor/etc/thermal-india-normal.conf
-vendor/etc/thermal-india-phone.conf
-vendor/etc/thermal-india-tgame.conf
-vendor/etc/thermal-india-video.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-map-india.conf
-vendor/etc/thermal-mgame.conf
-vendor/etc/thermal-navigation.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermal-video.conf
+
+# Thermal configs - (modified)
+vendor/etc/thermal-camera.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-class0.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-huanji.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-camera.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-class0.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-huanji.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-mgame.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-navigation.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-nolimits.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-normal.conf|c813d4a93b1f1f08982a6a990607a083
+vendor/etc/thermal-india-phone.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-tgame.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-india-video.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-mgame.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-navigation.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-nolimits.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-normal.conf|c813d4a93b1f1f08982a6a990607a083
+vendor/etc/thermal-phone.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-tgame.conf|ce5f454012250ee4a077edf8d39c4ba7
+vendor/etc/thermal-video.conf|ce5f454012250ee4a077edf8d39c4ba7
 
 # Touchscreen firmware
 vendor/firmware/st_fts_k3s.ftb
