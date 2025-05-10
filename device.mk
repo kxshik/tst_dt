@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor
 
 # Camera
+$(call soong_config_set,camera,override_format_from_reserved,true)
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 PRODUCT_SYSTEM_PROPERTIES += \
