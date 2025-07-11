@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from vili V816.0.10.0.UKDMIXM
+# All unpinned blobs below are extracted from vili MIUI 14
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
