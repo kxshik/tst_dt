@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor
 
 # Camera
-$(call soong_config_set,camera,override_format_from_reserved,true)
+$(call soong_config_set_bool,camera,override_format_from_reserved,true)
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera-lisa/device.mk)
 
 # Init
