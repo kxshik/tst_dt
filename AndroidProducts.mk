@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The yaapOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vili.mk
+    $(LOCAL_DIR)/yaap_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_vili-user \
-    lineage_vili-userdebug \
-    lineage_vili-eng
+    yaap_vili-user \
+    yaap_vili-userdebug \
+    yaap_vili-eng
